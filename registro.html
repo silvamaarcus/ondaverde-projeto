@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style-pages.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header class="navigation">
+        <a href="/index.html">
+            <img class="navigation-image" src="/img/ondaVerde-logo.svg" alt="Logo Onda Verde">
+        </a>
+        <nav class="navigation-menu">
+            <a class="navigation-menu-item" href="/planos.html">PLANOS</a>
+            <a class="navigation-menu-item" href="/atendimento.html">ATENDIMENTO</a>
+            <a class="navigation-menu-item" href="https://www.americamineiro.com.br/">AMÉRICA</a>
+            <button class="navigation-menu-button">ASSINE AQUI</button>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="register-box">
+            <h2 class="register-box-title">Preencha os seus dados para prosseguir com o cadastro</h2>
+            <br>
+            <form>
+                <div class="user-box">
+                    <input type="number" id="cpf" placeholder="CPF" />
+                </div>
+                <br>
+                <div class="user-box">
+                    <input type="text" id="name" placeholder="Nome Completo" />
+                </div>
+                <br>
+                <div class="user-box">
+                    <input type="email" id="email" placeholder="E-mail" />
+                </div>
+                <br>
+                <div class="user-box">
+                    <input type="password" id="password" placeholder="Senha" />
+                </div>
+                <br>
+                <div class="user-box">
+                    <input list="gender" placeholder="Sexo" />
+                    <datalist id="gender">
+                        <option class="male" value="Masculino"></option>
+                        <option class="female" value="Feminino"></option>
+                        <option class="other" value="Outros"></option>
+                    </datalist>
+                </div>
+                <br>
+                <div class="user-box">
+                    <input type="date" id="nascimento" placeholder="Data de Nascimento" />
+                </div>
+                <br>
+                <div class="user-box">
+                    <input type="number" id="phone" placeholder="Celular" />
+                </div>
+                <br>
+                <div class="user-box rules">
+                    <input type="checkbox">
+                    <p>Acessar os Termos de Uso e a Política de Privacidade. Li e concordo com os Termos de Uso e Política de Privacidade.</p>
+                </div>
+                <br>
+                <button class="navigation-menu-button">PROSSEGUIR</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

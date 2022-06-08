@@ -1,0 +1,217 @@
+@import "_colors";
+@import "_navbar";
+@import "_modal";
+@import "_pageFormat";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap');
+
+/**/
+
+.container-principal {
+    height: 700px;
+    background-image: url('/img/fundo.svg');
+    background-size: cover;
+}
+
+.container-frame-1 {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.container-frame-1-imagem {
+    width: 700px;
+    height: 350px;
+}
+
+.container-frame-1-button {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: $cor5;
+    width: 150px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.navigation-menu-button:hover,
+.container-frame-1-button:hover {
+    animation: pulsate 1s ease;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 15px $cor3, 0 0 20px $cor4;
+    }
+}
+
+.container-frame-1-title {
+    color: $cor6;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-frame-1-p {
+    justify-content: center;
+    text-align: center;
+    color: $cor6;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+.container-frame-2 {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: $cor5;
+    padding: 20px 20px;
+    gap: 20px;
+}
+
+.contaier-frame-2-image {
+    width: 700px;
+    height: 350px;
+}
+
+.container-frame-2-text {
+    display: block;
+    padding: 2px;
+}
+
+.container-frame-2-title {
+    color: $cor1;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.container-frame-2-p {
+    color: $cor1;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.container-frame-3 {
+    height: 700px;
+    background-color: $cor1;
+    padding: 20px 20px;
+    gap: 20px;
+}
+
+.container-frame-3-text {
+    display: block;
+    padding: 2px;
+}
+
+.container-frame-3-title {
+    color: $cor6;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.container-frame-3-p {
+    color: $cor6;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.container-frame-all-card {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.container-frame-3-card {
+    background-color: $cor6;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.container-frame-3-card-title {
+    color: $cor1;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.container-frame-3-card-paragraph {
+    color: $cor1;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-bottom: 0.5px solid $cor1;
+    padding: 5px;
+}
+
+h4 {
+    text-align: center;
+    padding: 5px;
+}
+
+.container-frame-3-card-pay {
+    list-style: none;
+    color: $cor1;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.container-frame-3-card-button {
+    margin-top: 10px;
+    background-color: $cor1;
+    color: $cor6;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.container-footer {
+    height: auto;
+    background-color: $cor1;
+}
+
+.footer-p {
+    padding: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: $cor6;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
